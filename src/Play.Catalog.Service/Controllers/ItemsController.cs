@@ -8,7 +8,6 @@ using Play.Catalog.Contracts;
 using Play.Catalog.Service.Entities;
 using Play.Catalog.Service.Extensions;
 using Play.Common;
-using static Play.Catalog.Service.Dtos;
 
 namespace Play.Catalog.Service.Controllers
 {

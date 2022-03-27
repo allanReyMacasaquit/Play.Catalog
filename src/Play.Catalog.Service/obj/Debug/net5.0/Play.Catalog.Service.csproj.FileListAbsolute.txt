@@ -94,3 +94,17 @@ C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\obj\Debug
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\ref\Play.Catalog.Service.dll
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.pdb
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.genruntimeconfig.cache
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Automatonymous.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\GreenPipes.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MassTransit.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\NewId.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Contracts.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Contracts.pdb

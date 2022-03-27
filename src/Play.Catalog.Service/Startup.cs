@@ -15,6 +15,7 @@ namespace Play.Catalog.Service
 {
     public class Startup
     {
+        private ServiceSettings serviceSettings;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -25,24 +26,22 @@ namespace Play.Catalog.Service
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var serviceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
+            serviceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
+
+            services.AddMongo()
+                    .AddMongoRepository<Item>("items");
 
             services.AddMassTransit(x =>
             {
                 x.UsingRabbitMq((context, configurator) =>
                 {
-                    var rabbitMQSettings = Configuration.GetSection(nameof(RabbitMQSettings))
-                        .Get<RabbitMQSettings>();
+                    var rabbitMQSettings = Configuration.GetSection(nameof(RabbitMQSettings)).Get<RabbitMQSettings>();
                     configurator.Host(rabbitMQSettings.Host);
-                    configurator.ConfigureEndpoints(context,
-                        new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
+                    configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
                 });
             });
 
             services.AddMassTransitHostedService();
-
-            services.AddMongo()
-                .AddMongoRepository<Item>("items");
 
             services.AddControllers(options =>
             {
