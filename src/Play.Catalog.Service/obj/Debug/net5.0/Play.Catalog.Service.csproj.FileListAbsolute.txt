@@ -108,3 +108,10 @@ C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\System.Text.Json.dll
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Contracts.dll
 C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Play.Catalog.Contracts.pdb
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\allan\Projects\Projects\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
